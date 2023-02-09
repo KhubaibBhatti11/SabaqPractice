@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#423E3E"
-    tools:context=".MainActivity"
-    >
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/stdTextView"
@@ -26,9 +25,9 @@
 
     <EditText
         android:id="@+id/stdName"
-        android:layout_width="221dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="5dp"
+        android:layout_width="314dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
         android:background="#EED1F3"
         android:ems="10"
         android:fontFamily="casual"
@@ -36,7 +35,7 @@
         android:inputType="text"
         android:minHeight="48dp"
         android:textAlignment="center"
-        android:textSize="10sp"
+        android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -44,9 +43,10 @@
 
     <EditText
         android:id="@+id/stdrollNo"
-        android:layout_width="227dp"
+        android:layout_width="315dp"
         android:layout_height="48dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
         android:background="#F0CFF6"
         android:ems="10"
         android:fontFamily="casual"
@@ -54,7 +54,7 @@
         android:inputType="text"
         android:minHeight="48dp"
         android:textAlignment="center"
-        android:textSize="10sp"
+        android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -62,9 +62,9 @@
 
     <EditText
         android:id="@+id/stdSabaq"
-        android:layout_width="222dp"
+        android:layout_width="315dp"
         android:layout_height="48dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="10dp"
         android:background="#F3C6FA"
         android:ems="10"
         android:fontFamily="casual"
@@ -72,7 +72,7 @@
         android:inputType="number"
         android:minHeight="48dp"
         android:textAlignment="center"
-        android:textSize="10sp"
+        android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -80,9 +80,9 @@
 
     <EditText
         android:id="@+id/stdSabqi"
-        android:layout_width="220dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="5dp"
+        android:layout_width="313dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
         android:background="#ECC5F3"
         android:ems="10"
         android:fontFamily="casual"
@@ -90,7 +90,7 @@
         android:inputType="number"
         android:minHeight="48dp"
         android:textAlignment="center"
-        android:textSize="10sp"
+        android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -98,9 +98,9 @@
 
     <EditText
         android:id="@+id/stdManzil"
-        android:layout_width="218dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="5dp"
+        android:layout_width="315dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="10dp"
         android:background="#EFC6F6"
         android:ems="10"
         android:fontFamily="casual"
@@ -108,7 +108,7 @@
         android:inputType="number"
         android:minHeight="48dp"
         android:textAlignment="center"
-        android:textSize="10sp"
+        android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -127,23 +127,22 @@
 
     <Button
         android:id="@+id/showStd"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="Students"
+        android:layout_width="156dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="24dp"
+        android:text="All Students"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/stdListView" />
+        app:layout_constraintTop_toTopOf="@+id/stdManzil" />
 
     <Button
         android:id="@+id/addBtn"
-        android:layout_width="110dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="129dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
         android:text="Add"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.152"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/stdManzil" />
 </androidx.constraintlayout.widget.ConstraintLayout>
